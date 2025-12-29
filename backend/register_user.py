@@ -17,7 +17,9 @@ def register_user(username):
         if not ret:
             break
 
+        frame = cv2.flip(frame, 1)
         cv2.imshow("Register Face", frame)
+
 
         img_path = os.path.join(user_dir, f"{count}.jpg")
         cv2.imwrite(img_path, frame)
