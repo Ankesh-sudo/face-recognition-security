@@ -1,9 +1,11 @@
 # 🔐 Face Recognition Security System
 
+---
 A real-time Face Recognition–based Authentication System built using Python, OpenCV, and dlib, designed to securely identify and authenticate users through live webcam input.
 
 This project demonstrates practical skills in computer vision, machine learning integration, dependency management, and secure system design.
 
+---
 ## 🚀 Features
 
 📸 Real-time face detection & recognition using webcam
@@ -22,6 +24,8 @@ This project demonstrates practical skills in computer vision, machine learning 
 
 📦 Clean project structure with proper Git hygiene
 
+---
+
 ## 🛠️ Tech Stack
 
 Programming Language: Python 3.10
@@ -35,6 +39,7 @@ Data Handling: NumPy
 Web Framework (future-ready): Flask
 
 Version Control: Git & GitHub
+---
 
 ## 📂 Project Structure
 face-recognition-security/
@@ -61,35 +66,50 @@ face-recognition-security/
 ├── README.md
 └── .gitignore
 
+---
+
 ## ⚙️ Installation & Setup
 1️⃣ Clone the Repository
+```bash
 git clone https://github.com/Ankesh-sudo/Face-Recognition-Security.git
 cd Face-Recognition-Security
+```
 
 2️⃣ Create Virtual Environment
+```bash
 python3.10 -m venv venv
 source venv/bin/activate
+```
 
 3️⃣ Install Dependencies
+```bash
 pip install -r requirements.txt
+```
 
 
 ⚠️ Python 3.10 is required for stability with dlib and face_recognition.
+---
 
 ## ▶️ How to Run
 🔹 Register a New User
+```bash
 python backend/register_user.py
+```
 
 🔹 Generate Face Encodings
+```bash
 python backend/face_encode.py
+```
 
 🔹 Start Face Authentication
+```bash
 python backend/face_auth.py
+```
 
 
 Press Q to exit the camera window.
 
-📸 Demo Screenshot
+---
 
 ## 🧠 How It Works (High-Level)
 
@@ -102,6 +122,7 @@ Live webcam feed is processed frame-by-frame
 Face encodings are compared in real time
 
 User is marked Authorized or Unauthorized
+---
 
 ## 🔒 Security & Design Considerations
 
@@ -114,6 +135,7 @@ Designed as an authentication system, not antivirus
 Virtual environment excluded from version control
 
 Dependencies pinned for reproducibility
+---
 
 ## 📈 Future Enhancements
 
@@ -126,6 +148,7 @@ Dependencies pinned for reproducibility
 👥 Multi-user role management
 
 ☁️ Cloud deployment
+---
 
 ## 👤 Author
 
