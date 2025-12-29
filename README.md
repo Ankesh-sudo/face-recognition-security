@@ -1,0 +1,19 @@
+# Face Recognition Security System 🔐
+
+A biometric access control system using computer vision and machine learning.
+
+## Features (Planned)
+- Face registration
+- Real-time authentication
+- Access logging
+- Secure local storage
+- Ethical & privacy-aware design
+
+## Tech Stack
+- Python
+- OpenCV
+- face_recognition
+- Flask
+
+## Status
+🚧 Phase 1: Project Setup Completed
