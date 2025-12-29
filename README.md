@@ -9,6 +9,8 @@ A biometric access control system using computer vision and machine learning.
 - Secure local storage
 - Ethical & privacy-aware design
 - User face registration via webcam
+- Face encoding and secure storage using ML
+
 
 ## Tech Stack
 - Python
